@@ -2,9 +2,9 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+import L_GetGitHubInfo from "../../assets/img/projects/amazaon.png";
+import L_SmartBrain from "../../assets/img/projects/cvd.png";
+import L_RoboFriends from "../../assets/img/projects/news.png";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
@@ -23,6 +23,8 @@ import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
+import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_FIREBASE from "../../assets/img/skills/icons8-firebase.svg";
 
 import "./projects-timeline.styles.css";
 
@@ -33,7 +35,7 @@ const TimeLine = () => {
       <Timeline>
         <Events>
           {/* Project: Get GitHub Info */}
-          <ImageEvent date="19/07/2020" className="text-center" text="Get GitHub Info" src={L_GetGitHubInfo} alt="Get GitHub Info">
+          <ImageEvent date="19/07/2020" className="text-center" text="Amazon clone App" src={L_GetGitHubInfo} alt="Get GitHub Info">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -44,12 +46,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches people on GitHub with non-private account and see all their details using GitHub API
+                        <strong>Description:</strong> An app that helps ser to shop online 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                        <li>Register new user</li>
+                          <li>Add to Cart</li>
+                          <li>Payment with Paypal</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -71,7 +74,7 @@ const TimeLine = () => {
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_GIT} alt="Github API" rounded className="image-style1 m-1"></Image> GitHub API
+                              <Image src={L_FIREBASE} alt="Firebase" rounded className="image-style1 m-1"></Image> Firebase
                             </span>
                           </li>
                         </ul>
@@ -81,13 +84,13 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://akjha96.github.io/getGithubInfo/" target="_blank">
+                <UrlButton href="https://clone-ce639.firebaseapp.com/?fbclid=IwAR22E2f6Ec58IdlLo4q-4Xsg5_5dVbw1JZjxagUr_X77oyKuF5cHWBIg514" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/getGithubInfo" target="_blank">
+                <UrlButton href="https://github.com/devuzair56/amazon" target="_blank">
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be" target="_blank">
+                <UrlButton href="https://www.youtube.com/watch?v=MBTjYUDZk70" target="_blank">
                   WATCH VIDEO
                 </UrlButton>
               </div>
@@ -95,7 +98,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* Project: Smart Brain */}
-          <ImageEvent date="21/01/2020" className="text-center" text="Smart Brain Face Detect app" src={L_SmartBrain} alt="Smart Brain Face Detect">
+          <ImageEvent date="21/01/2020" className="text-center" text="Covid 19 tracker App" src={L_SmartBrain} alt="Smart Brain Face Detect">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -106,13 +109,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that detects face in a picture.
+                        <strong>Description:</strong> An app Tells you brief discription of covid 19 current deaths and recovery cases cases around globe 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
+                          <li>Update automatically cases around globe</li>
+                          <li>give precautions of covid 19</li>
+                          <li>graph of global covid 19 status</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -124,47 +127,35 @@ const TimeLine = () => {
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                              <Image src={L_HTML5} alt="HTML5" rounded className="image-style1 m-1"></Image> HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                              <Image src={L_CSS3} alt="CSS" rounded className="image-style1 m-1"></Image> CSS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image src={L_JAVASCRIPT} alt="Javascript" rounded className="image-style1 m-1"></Image> JAVASCRIPT
                             </span>
                           </li>
                         </ul>
                         <hr />
-                        <em>
-                          <strong>SignUp/ Signin:</strong>
-                          <br />
-                          <br />
-                          You can <strong>register</strong> as new user or <strong>log in</strong> using the demo account below.
-                          <br />
-                          <br />
-                          <strong>Demo Account Details:</strong>
-                          <br />
-                          email: demo@demo.com
-                          <br />
-                          password: demo
-                        </em>
+                    
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://smart-face-detect-app.herokuapp.com/" target="_blank">
+                <UrlButton href="https://1234react.000webhostapp.com/" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/Smart_Brain" target="_blank">
+                <UrlButton href="https://github.com/devuzair56/covid-19" target="_blank">
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/watch?v=ZZYSpi_blL0" target="_blank">
+                <UrlButton href="https://www.youtube.com/watch?v=NOn8fR65mv4" target="_blank">
                   WATCH VIDEO
                 </UrlButton>
               </div>
@@ -173,7 +164,7 @@ const TimeLine = () => {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent date="14/01/2020" className="text-center" text="RoboFriends" src={L_RoboFriends} alt="Robo Friends">
+          <ImageEvent date="14/01/2020" className="text-center" text="React news App" src={L_RoboFriends} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -184,13 +175,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to search through robots fetched in real-time with users.
+                        <strong>Description:</strong> An app that will show the latest news from differnt news channel sources aound globe
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
+                          <li>Search through differnt sources</li>
+                          <li>Latest or Top category</li>
+                          <li>Tech information</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -207,17 +198,17 @@ const TimeLine = () => {
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                              <Image src={L_HTML5} alt="Node.js" rounded className="image-style1 m-1"></Image> HTML 5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                              <Image src={L_CSS3} alt="Express" rounded className="image-style1 m-1"></Image> css
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image src={L_JAVASCRIPT} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> javascript
                             </span>
                           </li>
                         </ul>
@@ -227,10 +218,10 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://akjha96.github.io/RoboFriends/" target="_blank">
-                  SEE LIVE
+                <UrlButton href="https://www.youtube.com/watch?v=c9CSRwGNoOI" target="_blank">
+                  SEE VIDEO
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/RoboFriends" target="_blank">
+                <UrlButton href="https://github.com/devuzair56/React-news" target="_blank">
                   SOURCE CODE
                 </UrlButton>
               </div>
@@ -239,149 +230,10 @@ const TimeLine = () => {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent date="15/12/2019" className="text-center" text="Product Hunt Clone" src={L_ProductHuntClone} alt="Product Hunt Clone">
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This website is a clone of Product Hunt built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://github.com/akjha96/product_hunt_clone" target="_blank">
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+        
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent date="07/12/2019" className="text-center" text="Portfolio using Django" src={L_PortfolioUsingDjango} alt="Portfolio using Django">
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio website built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>Hosted using Digital ocean under www.akjfun.com</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+          
         </Events>
       </Timeline>
     </div>

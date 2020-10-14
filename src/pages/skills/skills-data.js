@@ -3,8 +3,9 @@ import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
+
 import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_FLUX from "../../assets/img/skills/flux.svg";
+import L_FIREBASE from "../../assets/img/skills/icons8-firebase.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
@@ -44,12 +45,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
+  
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -68,12 +64,7 @@ export const skills = {
       imgSrc: L_REDUX,
       skillName: "Redux",
     },
-    {
-      link: "https://facebook.github.io/flux/",
-      imgAltText: "Flux",
-      imgSrc: L_FLUX,
-      skillName: "Flux",
-    },
+   
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
@@ -107,12 +98,7 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
+   
     {
       link: "https://flask.palletsprojects.com/",
       imgAltText: "Flask",
@@ -127,24 +113,14 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
+   
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
-    {
-      link: "https://www.pythonanywhere.com/",
-      imgAltText: "pythonanywhere",
-      imgSrc: L_PYTHONANYWHERE,
-      skillName: "PythonAnywhere",
-    },
+   
   ],
   programmingLanguages: [
     {
@@ -153,37 +129,28 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
+   
     {
       link: "https://www.python.org/",
       imgAltText: "Python",
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
+   
   ],
   databases: [
-    {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
+   
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "FIREBASE",
+      imgSrc: L_FIREBASE,
+      skillName: "FIREBASE",
     },
   ],
   versionControl: [

@@ -21,14 +21,14 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Anand Kumar Jha</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                Hi there! I am <strong>&nbsp;Uzair iftikhar</strong>
+                <br />A passionate programmer and a student, born and brought up in Pakistan. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, Firebase and sqlite as my tech stack.
                 <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                I am a final year student of Computer science from Sir Syed University of Engeniering and Technology, My degree will be completed in 2020.
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                Working in differnet projects, my goal is always driven towards providing amazing experience with the best level of quality in web development.
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                Along with that, I am passioniate to develope web applications that can make peoples work easy and efficent  .
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -39,21 +39,21 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1MOzv1uAOadz1H8F8apv50F9RHTeTZHiu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/drive/folders/1BMuT-z_yIdrSbRjE1gcoWtYzaRwhlQLV" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/devuzair56?tab=repositories" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/uzair-iftikhar-aa98b41b9/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
